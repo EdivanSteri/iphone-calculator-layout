@@ -11,8 +11,6 @@ This project was created to improve HTML and CSS skills by replicating the exact
 - **Hover Effects:** Simple hover effects were added for basic user interaction.
 - **HTML Semantics:** Using semantic tags to ensure a well-structured layout.
 
-> **Important:** This project is **desktop-only** and has not been optimized for responsiveness or mobile devices.
-
 ## Technologies Used
 
 - **HTML5**
