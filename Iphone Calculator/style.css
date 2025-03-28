@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+.container-scientific-calculator {
+  height: 800px;
+  width: 400px;
+
+  background-color: #000;
+  border-radius: 50px;
+
+  margin: 70px auto;
+
+  position: relative;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  color: rgb(245, 163, 57);
+
+  top: 30px;
+  left: 30px;
+}
+
+.outcome-shown {
+  height: 200px;
+
+  text-align: right;
+  align-content: end;
+
+  padding-right: 10px;
+}
+
+.outcome-shown p {
+  font-size: 50px;
+  color: #fff;
+}
+
+.grid-scientific-buttons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  gap: 5px;
+
+  padding: 10px 10px 0 10px;
+}
+
+button.grid-item {
+  border: transparent;
+  border-radius: 50px;
+
+  color: #fff;
+}
+
+.grid-scientific-buttons button.grid-item {
+  background-color: rgb(44, 44, 44);
+}
+
+
+.grid-base-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  gap: 5px;
+
+  padding: 10px 10px 0 10px;
+}
+
+.grid-base-buttons button.grid-item {
+  background-color: rgb(44, 44, 44);
+}
+
+.grid-base-buttons .grid-item.special {
+  background-color: #8f8f8f;
+}
+
+.grid-base-buttons .grid-item.operation {
+  background-color: rgb(245, 163, 57);
+}
+
+button.grid-item:hover,
+.material-symbols-outlined:hover {
+  cursor: pointer;
+}
+
+button.grid-item:active{
+  background-color: #8f8f8f;
+}
+
+.grid-base-buttons button.grid-item.special:active{
+  background-color: #c4c4c4;
+}
+
+.grid-base-buttons button.grid-item.operation:active{
+  background-color: rgb(241, 189, 120);
+}
