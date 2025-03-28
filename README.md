@@ -23,7 +23,7 @@ This project was created to improve HTML and CSS skills by replicating the exact
    ```bash
    git clone https://github.com/EdivanSteri/iphone-calculator-layout.git
 
-2. Open the index.html file:
+2. **Open the index.html file:**
 
    Open the file in your browser to view the project.
 
